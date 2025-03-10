@@ -1,0 +1,85 @@
+.layout-header {
+    background-image: url("https://www.plex.tv/wp-content/uploads/2024/01/Watch-Free-Hero-2048x1152-3.png");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    position: relative;
+}
+
+.intro-content-header {
+    position: absolute;
+    top: 20%;
+}
+
+.intro-content-header h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.intro-content-header p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(208, 208, 208);
+}
+
+.bnt{
+    background-color: rgb(226, 192, 0);
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 13px;
+    color: white;
+    text-decoration: none;
+}
+
+.search-header {
+    display: flex;
+    justify-content: center;
+}
+
+.search-header input {
+    height: 30px;
+    width: 70%;
+    border-radius: 7px;
+    background-color: rgba(99, 99, 99, 0.7);
+    border: none;
+}
+
+.login-btn{
+    padding: 2px 5px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(61, 61, 61);
+    margin-left: 4px;
+    border-radius: 7px;
+}
+
+.px-3:first-child {
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.content-comment {
+    border-bottom: 1px solid rgb(80, 79, 79);
+}
+
+.duration{
+    color: rgb(126, 126, 126);
+}
+
+.title{
+    color: rgb(216, 192, 3);
+}
+
+.fa-star{
+    color: rgb(177, 157, 1);
+    font-size: 14px;
+}
+
+.bth button{
+    padding: 6px 15px;
+    border-radius: 13px;
+    color: white;
+    background-color: rgb(177, 157, 1);
+}

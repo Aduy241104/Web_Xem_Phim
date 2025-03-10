@@ -1,0 +1,48 @@
+.movie-layout{
+    width: 100%;
+    height: 600px;
+}
+
+.chapter-section{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    max-height: 300px;
+    overflow-y: scroll;
+    
+}
+
+.chapter-section li{
+    width: 50px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 7px;
+    margin: 2px;
+    text-align: center;
+    padding: 8px 3px;
+    cursor: pointer;
+}
+
+.activess {
+    background-color: red !important;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 3px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(193, 137, 8);
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+}   

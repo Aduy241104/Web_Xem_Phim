@@ -1,0 +1,134 @@
+body {
+    font-family: "Noto Sans", sans-serif;
+    overflow-x: hidden;
+}
+
+/* .header-part-1 img {
+    width: 100%;
+} */
+
+.layout-1 {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.banner-header img {
+    width: 40%;
+}
+
+.option-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.option-header a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+
+.layout-2 {
+    background-image: linear-gradient(90deg, rgb(121, 95, 2), rgb(57, 48, 3), rgb(16, 16, 16));
+    color: rgb(255, 255, 255);
+    padding-bottom: 150px;
+    padding-top: 80px;
+    padding-bottom: 130px;
+    padding-right: 20px;
+    position: relative;
+}
+
+.content-new {
+    margin-bottom: 40px;
+}
+
+.content-newBookItem {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content-newBookItem span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content-newBookItem i {
+    color: rgb(233, 190, 0);
+}
+
+.content-newBookItem h5 {
+    color: rgb(243, 64, 64);
+}
+
+.image {
+    width: 350px;
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    animation: moveRight 4s linear infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        right: -10px;
+    }
+
+    100% {
+        right: 100%;
+    }
+}
+
+
+.layout-3 {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.layout-3 img {
+    width: 40%;
+    height: 180px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+
+.layout-3 p:first-child {
+    color: rgb(169, 169, 169);
+}
+
+.layout-3 a {
+    color: rgb(3, 157, 3);
+    display: inline;
+}
+
+.right-part img {
+    width: 57%;
+    border-radius: 10px;
+}
+
+.right-part {
+    border: 2px solid rgb(207, 90, 0);
+    padding: 20px 0px;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(150deg,rgb(250, 53, 53), black, black);
+}
+
+.custome-button {
+    background-color: rgb(2, 128, 109);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 9px;
+    font-weight: 500;
+}

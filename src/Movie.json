@@ -1,0 +1,142 @@
+{
+    "tv_series": [
+        {
+            "id": 1,
+            "title": "One Piece",
+            "year": 2004,
+            "genre": "Action",
+            "director": "Vince Gilligan",
+            "linkUrlImg": "https://musicart.xboxlive.com/7/fd006e00-0000-0000-0000-000000000002/504/image.jpg",
+            "linkTrailer" : "https://www.youtube.com/embed/BG89ff1tjLU?si=_NKIsKQXbB4Jk_-e",
+            "episodes": [
+                {
+                    "episode": 1,
+                    "title": "Pilot",
+                    "duration": "58m",
+                    "linkUrl": "https://example.com/breaking-bad-s1e1"
+                },
+                {
+                    "episode": 2,
+                    "title": "Cat's in the Bag...",
+                    "duration": "48m",
+                    "linkUrl": "https://example.com/breaking-bad-s1e2"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Conan",
+            "year": 2011,
+            "genre": "Action",
+            "director": "David Benioff, D. B. Weiss",
+            "linkUrlImg": "https://gamelade.vn/wp-content/uploads/2025/02/conan28_mainvisual-1.jpg",
+            "linkTrailer": "https://www.youtube.com/embed/BG89ff1tjLU?si=_NKIsKQXbB4Jk_-e",
+            "episodes": [
+                {
+                    "episode": 1,
+                    "title": "Winter Is Coming",
+                    "duration": "62m",
+                    "linkUrl": "https://example.com/game-of-thrones-s1e1"
+                },
+                {
+                    "episode": 2,
+                    "title": "The Kingsroad",
+                    "duration": "56m",
+                    "linkUrl": "https://example.com/game-of-thrones-s1e2"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Stranger Things",
+            "year": 2016,
+            "genre": "Drama",
+            "director": "The Duffer Brothers",
+            "linkUrlImg": "https://musicart.xboxlive.com/7/fd006e00-0000-0000-0000-000000000002/504/image.jpg",
+            "linkTrailer": "https://www.youtube.com/embed/BG89ff1tjLU?si=_NKIsKQXbB4Jk_-e",
+            "episodes": [
+                {
+                    "episode": 1,
+                    "title": "Chapter One: The Vanishing of Will Byers",
+                    "duration": "47m",
+                    "linkUrl": "https://example.com/stranger-things-s1e1"
+                },
+                {
+                    "episode": 2,
+                    "title": "Chapter Two: The Weirdo on Maple Street",
+                    "duration": "55m",
+                    "linkUrl": "https://example.com/stranger-things-s1e2"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Avenger 2",
+            "year": 2016,
+            "genre": "Action",
+            "director": "The Duffer Brothers",
+            "linkUrlImg": "https://media.vietnamplus.vn/images/7255a701687d11cb8c6bbc58a6c8078536b50ad2ef58f88bcb0195af2efa4b41281d6172dd6aa666322cce73daeb6ba8/avengers.jpg",
+            "linkTrailer": "https://www.youtube.com/embed/BG89ff1tjLU?si=_NKIsKQXbB4Jk_-e",
+            "episodes": [
+                {
+                    "episode": 1,
+                    "title": "Chapter One: The Vanishing of Will Byers",
+                    "duration": "47m",
+                    "linkUrl": "https://example.com/stranger-things-s1e1"
+                },
+                {
+                    "episode": 2,
+                    "title": "Chapter Two: The Weirdo on Maple Street",
+                    "duration": "55m",
+                    "linkUrl": "https://example.com/stranger-things-s1e2"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Stranger Things",
+            "year": 2016,
+            "genre": "Drama",
+            "director": "The Duffer Brothers",
+            "linkUrlImg": "https://musicart.xboxlive.com/7/fd006e00-0000-0000-0000-000000000002/504/image.jpg",
+            "linkTrailer": "https://www.youtube.com/embed/BG89ff1tjLU?si=_NKIsKQXbB4Jk_-e",
+            "episodes": [
+                {
+                    "episode": 1,
+                    "title": "Chapter One: The Vanishing of Will Byers",
+                    "duration": "47m",
+                    "linkUrl": "https://example.com/stranger-things-s1e1"
+                },
+                {
+                    "episode": 2,
+                    "title": "Chapter Two: The Weirdo on Maple Street",
+                    "duration": "55m",
+                    "linkUrl": "https://example.com/stranger-things-s1e2"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Stranger Things",
+            "year": 2016,
+            "genre": "Drama",
+            "director": "The Duffer Brothers",
+            "linkUrlImg": "https://musicart.xboxlive.com/7/fd006e00-0000-0000-0000-000000000002/504/image.jpg",
+            "linkTrailer": "https://www.youtube.com/embed/BG89ff1tjLU?si=_NKIsKQXbB4Jk_-e",
+            "episodes": [
+                {
+                    "episode": 1,
+                    "title": "Chapter One: The Vanishing of Will Byers",
+                    "duration": "47m",
+                    "linkUrl": "https://example.com/stranger-things-s1e1"
+                },
+                {
+                    "episode": 2,
+                    "title": "Chapter Two: The Weirdo on Maple Street",
+                    "duration": "55m",
+                    "linkUrl": "https://example.com/stranger-things-s1e2"
+                }
+            ]
+        }
+    ]
+}
