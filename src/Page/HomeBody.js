@@ -1,19 +1,19 @@
 import React from 'react'
-import Banner from './Banner'
-import NewBook from './NewBook'
-import ListBook from './ListBook'
-import ListMovieByGenre from './ListMovieByGenre'
-import IntroComponent from '../FerComponent/IntroComponent'
+import Banner from '../FerComponent/Banner'
+import NewBook from '../FerComponent/NewBook'
+import ListBook from '../FerComponent/ListBook'
+import ListMovieByGenre from '../FerComponent/ListMovieByGenre'
+import Footer from '../FerComponent/Footer'
 
 function HomeBody() {
     return (
         <>
             <Banner />
             <NewBook />
-            <ListMovieByGenre />
-            <ListMovieByGenre />
+            <ListMovieByGenre genre={ "Hành động" } num={1}/>
+            <ListMovieByGenre genre={ "" } num={2}/> 
             <ListBook />
-
+            <Footer />
         </>
     )
 }

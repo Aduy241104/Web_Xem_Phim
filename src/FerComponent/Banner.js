@@ -1,7 +1,6 @@
 import React from 'react'
 import '../StyleHeader.css'
-import IntroComponent from '../FerComponent/IntroComponent'
-import { Link } from 'react-router-dom'
+import IntroComponent from './IntroComponent'
 
 
 function Banner() {

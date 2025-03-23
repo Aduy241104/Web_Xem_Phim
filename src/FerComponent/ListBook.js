@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import AllBookItem from '../FerComponent/AllBookItem'
+import AllMovieItem from './AllMovieItem'
 import { Link } from 'react-router-dom';
-// import data from '../Movie.json'
 
 
 function ListBook() {
@@ -10,7 +9,7 @@ function ListBook() {
 
   useEffect(() => {
 
-    fetch('http://localhost:5000/tv_series?_limit=6')
+    fetch('http://localhost:5000/tv_series?_limit=8')
       .then(res => res.json())
       .then(rs => setData(rs));
 
@@ -24,7 +23,7 @@ function ListBook() {
         <div className='col-lg-12 row'>
           { data.map((item) => {
             return (
-              <AllBookItem
+              <AllMovieItem
                 key={ item.id }
                 id={ item.id }
                 title={ item.title }

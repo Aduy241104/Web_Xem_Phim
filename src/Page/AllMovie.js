@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import AllBookItem from '../FerComponent/AllBookItem';
+import AllMovieItem from '../FerComponent/AllMovieItem';
 
 function AllMovie() {
     const [data, setData] = useState([]);
@@ -19,7 +19,7 @@ function AllMovie() {
             <div className='row'>
                 { data.map((item) => {
                     return (
-                        <AllBookItem
+                        <AllMovieItem
                             key={ item.id }
                             id={ item.id }
                             title={ item.title }

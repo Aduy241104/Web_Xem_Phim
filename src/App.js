@@ -1,8 +1,8 @@
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 // import HomePage from './PE24/HomePage'
-import { Route, Router, Routes } from 'react-router-dom';
-import Header from './Page/Header';
+import { Route, Routes } from 'react-router-dom';
+import Header from './FerComponent/Header';
 import './AssFer.css';
 import HomeBody from './Page/HomeBody';
 import DescriptionPage from './Page/DescriptionPage';

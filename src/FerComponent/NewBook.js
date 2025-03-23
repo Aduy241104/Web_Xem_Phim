@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import NewBookItem from '../FerComponent/NewBookItem'
+import NewBookItem from './NewBookItem'
 
 function NewBook() {
   const [data, setData] = useState([]);
@@ -29,7 +29,7 @@ function NewBook() {
           return (
             <NewBookItem
               imgUrl={ item.linkUrlImg }
-              title={item.title}
+              title={ item.title }
             />
           )
         }) }

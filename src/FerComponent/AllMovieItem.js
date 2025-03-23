@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-function AllBookItem(props) {
+function AllMovieItem(props) {
   return (
     <div className='col-lg-3 layout-3'>
       <img src={ props.linkUrlImg } alt="" />
@@ -16,4 +16,4 @@ function AllBookItem(props) {
   )
 }
 
-export default AllBookItem
+export default AllMovieItem
